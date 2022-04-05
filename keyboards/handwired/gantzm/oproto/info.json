@@ -31,7 +31,6 @@
                 { "matrix": [0, 6], "x": 6, "y": 0, "label": "F3" },
                 { "matrix": [0, 7], "x": 7, "y": 0, "label": "F4" },
                 { "matrix": [0, 8], "x": 8, "y": 0, "label": "F5" },
-		
                 { "matrix": [6, 0], "x": 11, "y": 0, "label": "F6" },
                 { "matrix": [6, 1], "x": 12, "y": 0, "label": "F7" },
                 { "matrix": [6, 2], "x": 13, "y": 0, "label": "F8" },
@@ -41,6 +40,7 @@
                 { "matrix": [6, 6], "x": 17, "y": 0, "label": "F12" },
                 { "matrix": [6, 7], "x": 18, "y": 0, "label": "?" },
                 { "matrix": [6, 8], "x": 19, "y": 0, "label": "Ins" },
+
 		
                 { "matrix": [1, 0], "x": 0, "y": 1, "label": "M4" },
                 { "matrix": [1, 1], "x": 1, "y": 1, "label": "M5" },
@@ -51,7 +51,6 @@
                 { "matrix": [1, 6], "x": 6, "y": 1, "label": "3" },
                 { "matrix": [1, 7], "x": 7, "y": 1, "label": "4" },
                 { "matrix": [1, 8], "x": 8, "y": 1, "label": "5" },
-		
                 { "matrix": [7, 0], "x": 11, "y": 1, "label": "6" },
                 { "matrix": [7, 1], "x": 12, "y": 1, "label": "7" },
                 { "matrix": [7, 2], "x": 13, "y": 1, "label": "8" },
@@ -62,6 +61,7 @@
                 { "matrix": [7, 7], "x": 18, "y": 1, "label": "Bksp" },
                 { "matrix": [7, 8], "x": 19, "y": 1, "label": "Bksp" },
 
+		
                 { "matrix": [2, 0], "x": 0, "y": 2, "label": "M7" },
                 { "matrix": [2, 1], "x": 1, "y": 2, "label": "M8" },
                 { "matrix": [2, 2], "x": 2, "y": 2, "label": "M9" },
@@ -71,7 +71,6 @@
                 { "matrix": [2, 6], "x": 6, "y": 2, "label": "E" },
                 { "matrix": [2, 7], "x": 7, "y": 2, "label": "R" },
                 { "matrix": [2, 8], "x": 8, "y": 2, "label": "T" },
-		
                 { "matrix": [8, 0], "x": 11, "y": 2, "label": "Y" },
                 { "matrix": [8, 1], "x": 12, "y": 2, "label": "U" },
                 { "matrix": [8, 2], "x": 13, "y": 2, "label": "I" },
@@ -80,9 +79,28 @@
                 { "matrix": [8, 5], "x": 16, "y": 2, "label": "[" },
                 { "matrix": [8, 6], "x": 17, "y": 2, "label": "]" },
                 { "matrix": [8, 7], "x": 18, "y": 2, "label": "\\" },
-                { "matrix": [7, 8], "x": 19, "y": 2, "label": "?" },
+                { "matrix": [8, 8], "x": 19, "y": 2, "label": "?" },
 
+                { "matrix": [3, 0], "x": 0, "y": 3, "label": "M10" },
+                { "matrix": [3, 1], "x": 1, "y": 3, "label": "M11" },
+                { "matrix": [3, 2], "x": 2, "y": 3, "label": "M12" },
+                { "matrix": [3, 3], "x": 3, "y": 3, "label": "Caps" },
+                { "matrix": [3, 4], "x": 4, "y": 3, "label": "A" },
+                { "matrix": [3, 5], "x": 5, "y": 3, "label": "S" },
+                { "matrix": [3, 6], "x": 6, "y": 3, "label": "D" },
+                { "matrix": [3, 7], "x": 7, "y": 3, "label": "F" },
+                { "matrix": [3, 8], "x": 8, "y": 3, "label": "G" },
+                { "matrix": [9, 0], "x": 11, "y": 3, "label": "H" },
+                { "matrix": [9, 1], "x": 12, "y": 3, "label": "J" },
+                { "matrix": [9, 2], "x": 13, "y": 3, "label": "K" },
+                { "matrix": [9, 3], "x": 14, "y": 3, "label": "L" },
+                { "matrix": [9, 4], "x": 15, "y": 3, "label": ";" },
+                { "matrix": [9, 5], "x": 16, "y": 3, "label": "'" },
+                { "matrix": [9, 6], "x": 17, "y": 3, "label": "Enter" },
+                { "matrix": [9, 7], "x": 18, "y": 3, "label": "Home" },
+                { "matrix": [9, 8], "x": 19, "y": 3, "label": "PgUp" },
 
+		
                 { "matrix": [4, 0], "x": 0, "y": 4, "label": "M13" },
                 { "matrix": [4, 1], "x": 1, "y": 4, "label": "M14" },
                 { "matrix": [4, 2], "x": 2, "y": 4, "label": "M15" },
@@ -92,7 +110,6 @@
                 { "matrix": [4, 6], "x": 6, "y": 4, "label": "C" },
                 { "matrix": [4, 7], "x": 7, "y": 4, "label": "V" },
                 { "matrix": [4, 8], "x": 8, "y": 4, "label": "B" },
-		
                 { "matrix": [10, 0], "x": 11, "y": 4, "label": "N" },
                 { "matrix": [10, 1], "x": 12, "y": 4, "label": "M" },
                 { "matrix": [10, 2], "x": 13, "y": 4, "label": "," },
