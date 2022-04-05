@@ -7,6 +7,8 @@
 #define SPLIT_HAND_PIN B0
 #define SOFT_SERIAL_PIN D2
 
+#define LED_CAPS_LOCK_PIN D6
+
 #define MATRIX_COLS 9
 #define MATRIX_ROWS 12
 
