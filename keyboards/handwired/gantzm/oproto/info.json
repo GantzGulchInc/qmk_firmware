@@ -5,9 +5,9 @@
     "bootloader": "halfkay",
     "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": true,
-        "command": true,
-        "console": true,
+        "bootmagic": false,
+        "command": false,
+        "console": false,
         "extrakey": true,
         "mousekey": true,
         "nkro": true
