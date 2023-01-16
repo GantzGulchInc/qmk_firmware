@@ -3,5 +3,9 @@ SERIAL_DRIVER = bitbang
 
 SPLIT_KEYBOARD = yes
 
-# DEBUG_ENABLE = yes
+OLED_ENABLE = yes
+
+DEBUG_ENABLE = yes
+
+LTO_ENABLE = yes
 
