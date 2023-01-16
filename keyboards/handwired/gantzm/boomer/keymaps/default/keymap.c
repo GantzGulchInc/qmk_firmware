@@ -41,20 +41,20 @@ bool oled_task_user(void) {
 
   oled_set_cursor(0, 0);
 
-  oled_write_P(PSTR("Hello Mike! "), false);
+  oled_write_P(PSTR("Boomer Ver 1.0 "), false);
 
   led_t led_state = host_keyboard_led_state();
 
-  oled_set_cursor(0, 1);
-  oled_write_P(led_state.num_lock ? PSTR("NUM: ON ") : PSTR("NUM: OFF"), false);
-
-  oled_set_cursor(0, 2);
+  oled_set_cursor(0, 3);
   oled_write_P(led_state.caps_lock ? PSTR("CAP: ON ") : PSTR("CAP: OFF"), false);
 
-  oled_set_cursor(0, 3);
-  oled_write_P(led_state.scroll_lock ? PSTR("SCR: ON ") : PSTR("SCR: OFF"), false);
+  oled_set_cursor(0, 2);
+  oled_write_P(led_state.num_lock ? PSTR("NUM: ON ") : PSTR("NUM: OFF"), false);
 
   oled_set_cursor(0, 4);
+  oled_write_P(led_state.scroll_lock ? PSTR("SCR: ON ") : PSTR("SCR: OFF"), false);
+
+  oled_set_cursor(0, 5);
 
   switch (get_highest_layer(layer_state)) {
   case QWERTY:
@@ -67,18 +67,7 @@ bool oled_task_user(void) {
     oled_write_P(PSTR("LAY: ???     "), false);
   }
 
-/*
-    // Host Keyboard Layer Status
-    oled_write_P(PSTR("Layer: "), false);
-
-
-    // Host Keyboard LED Status
-    led_t led_state = host_keyboard_led_state();
-    oled_write_P(led_state.num_lock ? PSTR("NUM ") : PSTR("    "), false);
-    oled_write_P(led_state.caps_lock ? PSTR("CAP ") : PSTR("    "), false);
-    oled_write_P(led_state.scroll_lock ? PSTR("SCR ") : PSTR("    "), false);
-  
-*/  
-    return false;
+  return false;
 }
+
 #endif

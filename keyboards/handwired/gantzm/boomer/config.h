@@ -1,4 +1,4 @@
-// Copyright 2022 Michael L. Gantz (@Michael L. Gantz)
+// Copyright 2022 GantzGulch, Inc. & Michael L. Gantz (@Michael L. Gantz)
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
