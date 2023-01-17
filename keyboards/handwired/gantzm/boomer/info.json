@@ -1,6 +1,6 @@
 {
     "manufacturer": "GantzGulch Inc.",
-    "keyboard_name": "handwired/gantzm/boomer",
+    "keyboard_name": "GantzGulch Boomer",
     "maintainer": "Michael L. Gantz",
     "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
