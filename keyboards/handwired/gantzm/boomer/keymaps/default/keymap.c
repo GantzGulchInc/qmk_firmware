@@ -41,22 +41,22 @@ void keyboard_post_init_user(void) {
 bool oled_task_user(void) {
 
   oled_set_cursor(0, 0);
-
+  
   oled_write_P(PSTR("Boomer Ver 1.0 "), false);
-
+  
   led_t led_state = host_keyboard_led_state();
-
+  
   oled_set_cursor(0, 3);
   oled_write_P(led_state.caps_lock ? PSTR("CAP: ON ") : PSTR("CAP: OFF"), false);
-
+  
   oled_set_cursor(0, 2);
   oled_write_P(led_state.num_lock ? PSTR("NUM: ON ") : PSTR("NUM: OFF"), false);
-
+  
   oled_set_cursor(0, 4);
   oled_write_P(led_state.scroll_lock ? PSTR("SCR: ON ") : PSTR("SCR: OFF"), false);
-
+  
   oled_set_cursor(0, 5);
-
+  
   switch (get_highest_layer(layer_state)) {
   case QWERTY:
     oled_write_P(PSTR("LAY: QWERTY  "), false);
@@ -67,7 +67,7 @@ bool oled_task_user(void) {
   default:
     oled_write_P(PSTR("LAY: ???     "), false);
   }
-
+  
   return false;
 }
 

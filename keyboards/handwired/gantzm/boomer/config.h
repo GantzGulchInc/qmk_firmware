@@ -4,6 +4,7 @@
 #pragma once
 
 #define OLED_DISPLAY_128X64
+// #define OLED_UPDATE_INTERVAL 100
 
 #define USE_I2C
 #define SPLIT_USB_DETECT 
